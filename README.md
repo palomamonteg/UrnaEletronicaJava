@@ -46,14 +46,14 @@ Gerencia o processo de votação e apuração dos resultados.
 
 #### Atributos:
 - nomes (String[]): Lista com os nomes dos candidatos.
-- numerosV (int[]): Lista com os números dos candidatos.
+- numerosV (String[]): Lista com os números dos candidatos.
 - votos (int[]): Array para armazenar os votos de cada candidato.
 - votosNulos (int): Contador de votos nulos.
 
 #### Métodos:
 - receberVoto(int numero): Processa um voto e valida se é válido.
 - exibirResultados(): Exibe os resultados da votação.
-
+- iniciarVotacao(): inicia o processo de votação.
 ## Para Executar o código
 
 #### 1. Acesse este repositório:
