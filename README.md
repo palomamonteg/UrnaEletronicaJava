@@ -5,11 +5,11 @@ Este repositório contém uma implementação de uma urna eletrônica simplifica
 ## Funcionalidades
 
 #### Candidatos Pré-configurados:
-Ada Lovelace (01)\
-Alan Turing (02)\
-Marie Curie (03)\
-Albert Einstein (04)\
-Ludwig van Beethoven (05)\
+- Ada Lovelace (01)\
+- Alan Turing (02)\
+- Marie Curie (03)\
+- Albert Einstein (04)\
+- Ludwig van Beethoven (05)
 
 #### Entrada de Votos:
 O usuário pode votar digitando o número correspondente ao candidato.
