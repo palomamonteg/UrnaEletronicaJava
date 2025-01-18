@@ -12,17 +12,17 @@ Este repositório contém uma implementação de uma urna eletrônica simplifica
 - Ludwig van Beethoven (05)
 
 #### Entrada de Votos:
-O usuário pode votar digitando o número correspondente ao candidato.\
-Votos inválidos são contabilizados como "votos nulos".
+- O usuário pode votar digitando o número correspondente ao candidato.
+- Votos inválidos são contabilizados como "votos nulos".
 
 #### Validação de Votos:
-Apenas os números entre 1 e 5 são considerados válidos.
+- Apenas os números entre 1 e 5 são considerados válidos.
 
 #### Resultados da Votação:
-Exibição do total de votos para cada candidato.\
-Percentual de votos de cada candidato em relação aos votos válidos.\
-Total de votos nulos.\
-Nome do vencedor ou informação sobre empate.
+- Exibição do total de votos para cada candidato.
+- Percentual de votos de cada candidato em relação aos votos válidos.
+- Total de votos nulos.
+- Nome do vencedor ou informação sobre empate.
 
 ## Estrutura do Projeto
 
@@ -56,26 +56,26 @@ Gerencia o processo de votação e apuração dos resultados.
 
 ## Para Executar o código
 
-#### 1.Clone este repositório:
+#### 1. Acesse este repositório:
 
-[git clone] (https://github.com/palomamonteg/UrnaEletronicaJava.git)
+- [git clone] (https://github.com/palomamonteg/UrnaEletronicaJava.git)
 
 #### 2.Abra o projeto no VS Code:
-Certifique-se de que o Visual Studio Code está instalado.\
-**Navegue até o diretório do projeto clonado e abra-o no VS Code:**\
-(cd UrnaEletronicaJava
-code .)
+- Certifique-se de que o Visual Studio Code está instalado.
+- **Navegue até o diretório do projeto clonado e abra-o no VS Code:**
+- (cd UrnaEletronicaJava
+  code .)
 
 #### 3.Configure o ambiente Java:
-Certifique-se de que o Java JDK 17 está instalado.\
-No VS Code, instale a extensão **"Extension Pack for Java"**.\
-Configure o ambiente para usar o JDK 17 em **"Settings"** caso não esteja configurado automaticamente.
+- Certifique-se de que o Java JDK 17 está instalado.
+- No VS Code, instale a extensão **"Extension Pack for Java"**.
+- Configure o ambiente para usar o JDK 17 em **"Settings"** caso não esteja configurado automaticamente.
 
 #### 4.Compile e execute o programa:
-No terminal do VS Code, compile o programa com o seguinte comando:\
-**javac UrnaEletronicaJava.java**\
-Em seguida, execute o programa:\
-**java UrnaEletronicaJava**
+- No terminal do VS Code, compile o programa com o seguinte comando:
+- **javac UrnaEletronicaJava.java**
+- Em seguida, execute o programa:
+- **java UrnaEletronicaJava**
 
 ## Exemplo de Interação
 
@@ -108,3 +108,6 @@ Contribuições são sempre bem-vindas!
 
 ## Licença
 **Este projeto está licenciado sob a Creative Commons.**
+
+## Autor(a):
+- Paloma Monteiro
