@@ -73,9 +73,9 @@ Gerencia o processo de votação e apuração dos resultados.
 
 #### 4. Compile e execute o programa:
 - No terminal do VS Code, compile o programa com o seguinte comando:
-- **javac UrnaEletronicaJava.java**
+-> **javac UrnaEletronicaJava.java**
 - Em seguida, execute o programa:
-- **java UrnaEletronicaJava**
+-> **java UrnaEletronicaJava**
 
 ## Exemplo de Interação
 
