@@ -31,8 +31,8 @@ Este repositório contém uma implementação de uma urna eletrônica simplifica
 Representa um candidato na eleição.
 
 #### Atributos:
-- nome (String): Nome do candidato.
-- numero (int): Número do candidato.
+- nomes (String): Nome do candidato.
+- numeros (int): Número do candidato.
 - votos (int): Total de votos recebidos.
 
 #### Métodos:
@@ -46,7 +46,7 @@ Gerencia o processo de votação e apuração dos resultados.
 
 #### Atributos:
 - nomes (String[]): Lista com os nomes dos candidatos.
-- numeros (int[]): Lista com os números dos candidatos.
+- numerosV (int[]): Lista com os números dos candidatos.
 - votos (int[]): Array para armazenar os votos de cada candidato.
 - votosNulos (int): Contador de votos nulos.
 
