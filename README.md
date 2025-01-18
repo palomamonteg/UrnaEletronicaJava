@@ -1,124 +1,83 @@
-# UrnaEletronicaJava
-
-Urna Eletrônica Simplificada em Java
+# Urna Eletrônica em Java
 
 Este repositório contém uma implementação de uma urna eletrônica simplificada baseada nos princípios de Programação Orientada a Objetos (POO) em Java. O objetivo deste projeto é simular uma votação com candidatos pré-definidos, registrar votos e exibir os resultados.
 
-Funcionalidades
+## Funcionalidades
 
-Candidatos Pré-configurados:
-
+### Candidatos Pré-configurados:
 Ada Lovelace (01)
-
 Alan Turing (02)
-
 Marie Curie (03)
-
 Albert Einstein (04)
-
 Ludwig van Beethoven (05)
 
-Entrada de Votos:
-
+### Entrada de Votos:
 O usuário pode votar digitando o número correspondente ao candidato.
-
 Votos inválidos são contabilizados como "votos nulos".
 
-Validação de Votos:
-
+### Validação de Votos:
 Apenas os números entre 1 e 5 são considerados válidos.
 
-Resultados da Votação:
-
+### Resultados da Votação:
 Exibição do total de votos para cada candidato.
-
 Percentual de votos de cada candidato em relação aos votos válidos.
-
 Total de votos nulos.
-
 Nome do vencedor ou informação sobre empate.
 
-Estrutura do Projeto
+## Estrutura do Projeto
 
-O projeto é composto pelas seguintes classes:
-
-Candidato
-
+### O projeto é composto pelas seguintes classes:
+## Candidato
 Representa um candidato na eleição.
 
-Atributos:
-
+### Atributos:
 nome (String): Nome do candidato.
-
 numero (int): Número do candidato.
-
 votos (int): Total de votos recebidos.
 
-Métodos:
-
+### Métodos:
 getNome(): Retorna o nome do candidato.
-
 getNumero(): Retorna o número do candidato.
-
 getVotos(): Retorna o total de votos recebidos.
-
 incrementarVotos(): Incrementa o total de votos do candidato.
 
-UrnaEletronica
-
+## UrnaEletronica
 Gerencia o processo de votação e apuração dos resultados.
 
-Atributos:
-
+### Atributos:
 nomes (String[]): Lista com os nomes dos candidatos.
-
 numeros (int[]): Lista com os números dos candidatos.
-
 votos (int[]): Array para armazenar os votos de cada candidato.
-
 votosNulos (int): Contador de votos nulos.
 
-Métodos:
-
+### Métodos:
 receberVoto(int numero): Processa um voto e valida se é válido.
-
 exibirResultados(): Exibe os resultados da votação.
 
-Como Executar o Programa
+## Como Executar o Programa
 
-Clone este repositório:
+### Clone este repositório:
 
-git clone https://github.com/seu-usuario/UrnaEletronicaJava.git
+[git clone] (https://github.com/seu-usuario/UrnaEletronicaJava.git)
 
-Abra o projeto no VS Code:
-
+### Abra o projeto no VS Code:
 Certifique-se de que o Visual Studio Code está instalado.
+**Navegue até o diretório do projeto clonado e abra-o no VS Code:**
+(cd UrnaEletronicaJava
+code .)
 
-Navegue até o diretório do projeto clonado e abra-o no VS Code:
-
-cd UrnaEletronicaJava
-code .
-
-Configure o ambiente Java:
-
+### Configure o ambiente Java:
 Certifique-se de que o Java JDK 17 está instalado.
+No VS Code, instale a extensão **"Extension Pack for Java"**.
+Configure o ambiente para usar o JDK 17 em **"Settings"** caso não esteja configurado automaticamente.
 
-No VS Code, instale a extensão "Extension Pack for Java".
-
-Configure o ambiente para usar o JDK 17 em "Settings" caso não esteja configurado automaticamente.
-
-Compile e execute o programa:
-
+### Compile e execute o programa:
 No terminal do VS Code, compile o programa com o seguinte comando:
-
-javac UrnaEletronicaJava.java
-
+**javac UrnaEletronicaJava.java**
 Em seguida, execute o programa:
+**java UrnaEletronicaJava**
 
-java UrnaEletronicaJava
-
-Exemplo de Interação
-
+## Exemplo de Interação
 Bem-vindo à Urna Eletrônica!
 Candidatos:
 01 - Ada Lovelace
@@ -134,7 +93,7 @@ Entrada inválida! Voto computado como nulo.
 Digite o número do seu candidato (4/10): 03
 ... (continua até 10 votos)
 
-Resultado da Votação:
+## Resultado da Votação:
 Ada Lovelace: 3 votos (30.0%)
 Alan Turing: 2 votos (20.0%)
 Marie Curie: 4 votos (40.0%)
@@ -143,10 +102,5 @@ Ludwig van Beethoven: 1 voto (10.0%)
 Votos Nulos: 0
 Vencedor: Marie Curie
 
-Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias e correções.
-
-Licença
-
-Este projeto está licenciado sob a Creative Commons.
+## Licença
+**Este projeto está licenciado sob a Creative Commons.**
