@@ -61,19 +61,19 @@ Gerencia o processo de votação e apuração dos resultados.
 [git clone] (https://github.com/palomamonteg/UrnaEletronicaJava.git)
 
 #### 2.Abra o projeto no VS Code:
-Certifique-se de que o Visual Studio Code está instalado.
-**Navegue até o diretório do projeto clonado e abra-o no VS Code:**
+Certifique-se de que o Visual Studio Code está instalado.\
+**Navegue até o diretório do projeto clonado e abra-o no VS Code:**\
 (cd UrnaEletronicaJava
 code .)
 
 #### 3.Configure o ambiente Java:
 Certifique-se de que o Java JDK 17 está instalado.\
-No VS Code, instale a extensão **"Extension Pack for Java"**.
+No VS Code, instale a extensão **"Extension Pack for Java"**.\
 Configure o ambiente para usar o JDK 17 em **"Settings"** caso não esteja configurado automaticamente.
 
 #### 4.Compile e execute o programa:
-No terminal do VS Code, compile o programa com o seguinte comando:
-**javac UrnaEletronicaJava.java**
+No terminal do VS Code, compile o programa com o seguinte comando:\
+**javac UrnaEletronicaJava.java**\
 Em seguida, execute o programa:\
 **java UrnaEletronicaJava**
 
