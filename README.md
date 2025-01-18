@@ -58,7 +58,7 @@ Gerencia o processo de votação e apuração dos resultados.
 
 #### 1.Clone este repositório:
 
-[git clone] (https://github.com/seu-usuario/UrnaEletronicaJava.git)
+[git clone] (https://github.com/palomamonteg/UrnaEletronicaJava.git)
 
 #### 2.Abra o projeto no VS Code:
 Certifique-se de que o Visual Studio Code está instalado.
