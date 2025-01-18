@@ -1,10 +1,10 @@
 # Urna Eletrônica em Java
 
-Este repositório contém uma implementação de uma urna eletrônica simplificada baseada nos princípios de Programação Orientada a Objetos (POO) em Java. O objetivo deste projeto é simular uma votação com candidatos pré-definidos, registrar votos e exibir os resultados.
+Este repositório contém uma implementação de uma urna eletrônica simplificada baseada nos princípios de Programação Orientada a Objetos (POO) em Java. O objetivo deste projeto é simular uma votação com candidatos que estão pré-definidos, registrar votos e exibir os resultados.
 
 ## Funcionalidades
 
-#### Candidatos Pré-configurados:
+#### Candidatos Pré-estabelecidos:
 - Ada Lovelace (01)
 - Alan Turing (02)
 - Marie Curie (03)
